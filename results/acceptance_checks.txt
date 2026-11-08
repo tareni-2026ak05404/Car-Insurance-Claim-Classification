@@ -1,0 +1,2 @@
+Verified 8 November 2026
+PASS: disjoint splits, saved-model metric parity, missing/unseen inputs, invalid schema, one-class AUC, all five Streamlit selections, no-data branch.

@@ -1,0 +1,7 @@
+{
+  "Logistic Regression": "Highest test AUC (0.9183) and precision (0.7642); F1 0.7467. Selected by validation F1 before test evaluation. A useful interpretable baseline; coefficients describe associations after encoding, not causal effects.",
+  "Decision Tree": "Test F1 0.7472 and recall 0.7508, close to logistic regression. The depth and leaf constraints limit overfitting. Its AUC 0.8992 is lower than logistic regression.",
+  "KNN": "Test F1 0.6982 and recall 0.6725 trail the leading models. Distance in the scaled, one-hot feature space may be less informative; this is an explanation to investigate, not a proven cause.",
+  "Naive Bayes": "Highest test recall (0.7923), but lowest precision (0.5940) and accuracy (0.7655). It identifies more claims while producing more false positives. Correlated predictors and one-hot inputs can challenge Gaussian independence assumptions.",
+  "Support Vector Machine": "Highest test accuracy (0.8480), F1 (0.7560) and MCC (0.6457). Its nonlinear RBF boundary performs well in this split. The test F1 advantage over logistic regression is small and has no significance test."
+}
